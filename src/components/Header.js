@@ -20,27 +20,28 @@ const useStyles = makeStyles((theme) => ({
     },
     appbarTitle: {
         flexGrow: '1',
+        color: "#000",
     },
     appbarWrapper: {
         width: "80%",
         margin: '0 auto',
     },
     icon:{
-        color:'#fff',
+        color:'#000',
         fontSize: '2rem',
     },
     colorText: {
-        color: '#FF0000',
+        color: '#b22a00',
     },
     colorWhite: {
-        color:'#fff',
+        color:'#000',
         fontSize: '2rem',
     },
     container: {
         textAlign: 'center',
     },
     arrowExpand: {
-        color: '#FF0000',
+        color: '#b22a00',
         fontSize: '2.5rem',
     },
 }));
@@ -66,7 +67,7 @@ function Header() {
                 collapsedHeight={25}>
                 <div className={classes.container}>
                     <h1 className={classes.colorWhite}>
-                        Welcome to my Interactive <br/><span className={classes.colorText}>Portfolio!</span>
+                        Welcome to my <br/><span className={classes.colorText}>Portfolio!</span>
                     </h1>
                     <Scroll to="projects-made" smooth={true}>
                         <IconButton>

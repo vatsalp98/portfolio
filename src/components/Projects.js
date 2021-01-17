@@ -11,6 +11,9 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        //backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/bg.jpg'})`,
+        //backgroundRepeat: "no-repeat",
+        //backgroundSize: "cover",
     },
 }));
 
@@ -24,6 +27,7 @@ function Projects() {
             <LightSpeed left>
                 <ProjectCard place={projects[1]}/> 
             </LightSpeed>
+            
         </div>
     )
 }
